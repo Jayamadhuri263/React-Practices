@@ -1,1 +1,33 @@
 /* Write your code here. */
+.cricket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  height: 100vh;
+}
+.heading {
+  color: white;
+  font-size: 25px;
+  font-family: "roboto";
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+}
